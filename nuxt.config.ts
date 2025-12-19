@@ -7,6 +7,9 @@ export default defineNuxtConfig({
       enabled: true
     }
   },
+    nitro: {
+    preset: 'cloudflare_pages',
+  },
   ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

@@ -56,14 +56,11 @@ let totalAtt = (Object.values(tots).reduce((a, b) => a + b, 0))
 
 <template>
   <div v-show="sEvents.length > 0">
-    <p></p>
     <hr>
 
-    <div class=topgrid style="text-align: left">
+    <div class=topgrid style="text-align: left; margin-top: 3em; margin-bottom: 3em;">
 
-      <p></p>
-      <p></p>
-      <p></p>
+
       <p></p>
       <!-- title section -->
       <span style="text-align: center">
@@ -111,6 +108,7 @@ let totalAtt = (Object.values(tots).reduce((a, b) => a + b, 0))
               </td>
             </tr>
           </table>
+
         </div>
       </div>
     </div>

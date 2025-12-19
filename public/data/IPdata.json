@@ -1,0 +1,25 @@
+{
+  "Weekend Date": "Jul 12, 2025",
+  "servicedata": {
+    "Ser. 1 - Sat. 5:00 PM": {
+      "Adults": 195,
+      "Kids": 42,
+      "Teens": 19
+    },
+    "Ser. 2 - Sun. 9:30 AM": {
+      "Adults": 304,
+      "Kids": 110
+    },
+    "Ser. 3 - Sun. 11:30 AM": {
+      "Adults": 434,
+      "Kids": 109,
+      "Teens": 126
+    },
+    "Ser. 4 - Encntr - Sun. - 4:00 PM": {
+      "Adults": 122
+    },
+    "Ser. 5 - Encntr - Sun. - 4:00 PM": {
+      "Adults": 122
+    }
+  }
+}

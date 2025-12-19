@@ -4,7 +4,7 @@ You can switch between the two branches.
 -->
 
 <script setup>
-const url = `https://script.google.com/macros/s/AKfycbyp1oDAPZT5-g58g2CZfMHjo4DmuAgssE-kIBoR8JrokXkvYrNEftaaR0p8ZwmziUGTgQ/exec?OLdata`
+const url = `https://script.google.com/macros/s/AKfycbyPaSNci1MpONbNBwpsvGhXB9ImofH5lbPxWRXvIO7DijdzVBH_j7uMhd0wxRQBoSPoaQ/exec?OLdata`
 var { data: count } = await useFetch(url)
 var k = Object.keys(count.value.servicedata)
 
