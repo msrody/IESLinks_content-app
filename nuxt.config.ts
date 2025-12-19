@@ -60,29 +60,28 @@ export default defineNuxtConfig({
     ],
     link: [
       {
+        rel: "icon",
+        type: "image/png",
+        sizes: "96x96",
+        href: "faviconIESAdmin/favicon-96x96.png",
+      },
+      {
+        rel="icon", 
+        type="image/svg+xml", 
+        href="faviconIESAdmin/favicon.svg"
+      },
+      {
+        rel="shortcut icon", 
+        href="/favicon.ico" 
+      },
+      {
         rel: "apple-touch-icon",
         sizes: "180x180",
-        href: "/favicon_package_v0.16/apple-touch-icon.png",
+        href: "faviconIESAdmin/apple-touch-icon.png",
       },
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "32x32",
-        href: "/favicon_package_v0.16/favicon-32x32.png",
-      },
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "16x16",
-        href: "/favicon_package_v0.16/favicon-16x16.png",
-      },
-      { rel: "manifest", href: "/favicon_package_v0.16/site.webmanifest" },
-      {
-        rel: "mask-icon",
-        href: "/favicon_package_v0.16/safari-pinned-tab.svg",
-        color: "#5bbad5",
-      },
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { 
+        rel: "manifest", 
+        href: "faviconIESAdmin/site.webmanifest" },
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css?family=Lato:300",
